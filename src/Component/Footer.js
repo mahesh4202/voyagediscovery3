@@ -1,61 +1,78 @@
 import React from 'react';
-import './Footer.css'
-import { FaFacebook } from "react-icons/fa6";
-import { FaWhatsapp } from "react-icons/fa";
-import { IoLogoInstagram } from "react-icons/io5";
-import { FaLinkedin } from "react-icons/fa";
+import { MDBFooter, MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 
-export default function Footer() {
+export default function App() {
   return (
-    <div>      
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <h6>About</h6>
-            <p class="text-justify">Voyage Discover is a simple place for all your travel needs, you can go to any place any time without any issues.</p>
-          </div>
-          <div class="col-xs-6 col-md-3">
-            <h6>Categories</h6>
-            <ul class="footer-links">
-            <li>Piligrimages</li>
-            <li>HoneyMoon tours</li>
-            <li>InterNational tours</li>
-            <li>Domestic tours</li>
-            <li>Adventurous tours</li>
-            </ul>
-          </div>
-
-          <div class="col-xs-6 col-md-3">
-            <h6>Quick Links</h6>
-            <ul class="footer-links">
-              <li><a>About Us</a></li>
-              <li><a>Contact Us</a></li>
-              <li><a>Contribute</a></li>
-              <li><a>Privacy Policy</a></li>
-              <li><a>Sitemap</a></li>
-            </ul>
-          </div>
-        </div>
-        <hr/>
+    <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
+      <section className=''>
+        <MDBContainer className='text-center text-md-start'>
+          <MDBRow className='mt-3'>
+            <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>
+                Voyage Discover
+              </h6>
+              <p>Voyage Discover is a simple place for all your travel needs, you can go to any place any time without any issues.</p>
+            </MDBCol>
+            <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>Piligrimages</h6>
+              <p>
+                <a href='#!' className='text-reset'>
+                  HoneyMoon tours
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  InterNational tours
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Domestic tours
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Adventurous tours
+                </a>
+              </p>
+            </MDBCol>
+            <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>Quick Links</h6>
+              <p>
+                <a href='#!' className='text-reset'>
+                  About Us
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Contact Us
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Contribute
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Privacy Policy
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Sitemap
+                </a>
+              </p>
+            </MDBCol>
+          </MDBRow>
+        </MDBContainer>
+      </section>
+      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+        © 2024 Copyright:
+        <a className='text-reset fw-bold' href='#'>
+          voyagediscover.com
+        </a>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by Voyage Discover
-            </p>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <ul class="social-icons">
-              <li><a class="facebook" href="#"><FaFacebook/></a></li>
-              <li><a class="whatsapp" href="#"><FaWhatsapp/></a></li>
-              <li><a class="instagram" href="#"><IoLogoInstagram/></a></li>
-              <li><a class="linkedin" href="#"><FaLinkedin/></a></li>   
-            </ul>
-          </div>
-        </div>
-      </div>
-</footer>
-      </div>
+    </MDBFooter>
   );
 }

@@ -10,23 +10,23 @@ function CarouselEx() {
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-  <div class="carousel-inner">
+  <div class="carousel-inner my-5">
     <div class="carousel-item active">
-      <img src={Carousel1} class="d-block w-100 h-100" alt="logo" />
+      <img src={Carousel1} alt="logo" />
       <div class="carousel-caption d-none d-md-block">
         <h5>Travel worldwide</h5>
         <p>with our travel packages you can go anywhere in world</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src={Carousel2} class="d-block w-100 h-100" alt="logo" />
+      <img src={Carousel2} alt="logo" />
       <div class="carousel-caption d-none d-md-block">
         <h5>Seasonal Packages</h5>
         <p>Seasonal Packages comes with special discounts, offers</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src={Carousel3} class="d-block w-100 h-100" alt="logo" />
+      <img src={Carousel3} alt="logo" />
       <div class="carousel-caption d-none d-md-block">
         <h5>Adventurous Tours</h5>
         <p>Adventures for all age groups in your budget</p>
