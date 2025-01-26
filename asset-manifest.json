@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/voyagediscovery3/static/css/main.c5b908b0.css",
-    "main.js": "/voyagediscovery3/static/js/main.6bd21b02.js",
+    "main.js": "/voyagediscovery3/static/js/main.9ecefb35.js",
     "static/js/453.85b8b7f2.chunk.js": "/voyagediscovery3/static/js/453.85b8b7f2.chunk.js",
     "static/media/2103.q706.015_travel_illustration.jpg": "/voyagediscovery3/static/media/2103.q706.015_travel_illustration.47995b30b6d8cfd660bf.jpg",
     "static/media/Home page.1.International Tour Package.3.jpg": "/voyagediscovery3/static/media/Home page.1.International Tour Package.3.d21d21a217c24fb4add8.jpg",
+    "static/media/Frame 1.jpg": "/voyagediscovery3/static/media/Frame 1.cfa1e346758004d428ff.jpg",
     "static/media/Carousel1.jpg": "/voyagediscovery3/static/media/Carousel1.02932da6d672ee4ef153.jpg",
     "static/media/Home page.1.International Tour Package.1.jpg": "/voyagediscovery3/static/media/Home page.1.International Tour Package.1.083c4b8fd3cf73af68d7.jpg",
     "static/media/Carousel2.jpg": "/voyagediscovery3/static/media/Carousel2.ce9a2f55ef521e4864ba.jpg",
@@ -21,11 +22,11 @@
     "static/media/logo.svg": "/voyagediscovery3/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/voyagediscovery3/index.html",
     "main.c5b908b0.css.map": "/voyagediscovery3/static/css/main.c5b908b0.css.map",
-    "main.6bd21b02.js.map": "/voyagediscovery3/static/js/main.6bd21b02.js.map",
+    "main.9ecefb35.js.map": "/voyagediscovery3/static/js/main.9ecefb35.js.map",
     "453.85b8b7f2.chunk.js.map": "/voyagediscovery3/static/js/453.85b8b7f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c5b908b0.css",
-    "static/js/main.6bd21b02.js"
+    "static/js/main.9ecefb35.js"
   ]
 }
