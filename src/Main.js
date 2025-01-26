@@ -11,6 +11,7 @@ import ButtonBaseDemo from "./Component/ButtonBaseDemo";
 import AccordionEx from "./Component/AccordionEx";
 import SearchComponent from "./Component/SearchComponent";
 import Footer from "./Component/Footer";
+import Frame from "./Component/Frame";
 const HomeMain = () => {
     const [scroll, setScroll] = useState(0);
  
@@ -38,6 +39,7 @@ const HomeMain = () => {
                 <BasicTabs />
                 <ButtonBaseDemo />
                 <AccordionEx />
+                <Frame />
                 <SearchComponent />
                 <Footer />
             </ScrollContent>
